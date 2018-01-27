@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/match_parent"
+    android:layout_height="@dimen/wrap_content"
+        tools:context="com.example.android.helloandroid.HelloAndroid">
+
+    <LinearLayout
+        android:layout_width="@dimen/match_parent"
+        android:layout_height="@dimen/wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:contentDescription="@string/udacitylogo"
+        android:id="@drawable/udacityflyingcar"
+        android:layout_width="@dimen/wrap_content"
+        android:layout_height="@dimen/heightimage1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/udacityflyingcar"
+        />
+
+    <TextView
+        android:id="@+id/udacity"
+        android:layout_width="@dimen/match_parent"
+        android:layout_height="@dimen/match_parent"
+        android:gravity="center"
+        android:background="@android:color/white"
+        android:fontFamily="@font/indie_flower"
+        android:padding="@dimen/textview_padding"
+        android:text="@string/udacity"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="@dimen/font_size"
+        />
+
+    <TextView
+        android:id="@+id/street"
+        android:layout_width="@dimen/match_parent"
+        android:layout_height="@dimen/match_parent"
+        android:gravity="center_horizontal"
+        android:background="@android:color/white"
+        android:fontFamily="@font/indie_flower"
+        android:padding="@dimen/textview_padding"
+        android:text="@string/street"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:textSize="@dimen/font_size"
+        />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="@dimen/match_parent"
+        android:layout_height="@dimen/match_parent"
+        android:gravity="center_horizontal"
+        android:background="@android:color/white"
+        android:fontFamily="@font/indie_flower"
+        android:padding="@dimen/textview_padding"
+        android:text="@string/address"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:textSize="@dimen/font_size"
+        />
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="@dimen/match_parent"
+        android:layout_height="@dimen/match_parent"
+        android:gravity="center_horizontal"
+        android:background="@android:color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="@dimen/textview_padding"
+        android:text="@string/number"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:textSize="@dimen/font_size"
+        android:linksClickable="true"
+        />
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="@dimen/match_parent"
+        android:layout_height="@dimen/match_parent"
+        android:gravity="center_horizontal"
+        android:background="@android:color/white"
+        android:fontFamily="@font/indie_flower"
+        android:padding="@dimen/textview_padding"
+        android:text="@string/website"
+        android:textSize="@dimen/font_size"
+        android:linksClickable="true"
+        android:textColor="@android:color/holo_blue_light"
+        />
+
+        <ImageView
+            android:contentDescription="@string/udacitylogo"
+            android:id="@drawable/udacityflyingcar"
+            android:layout_width="@dimen/match_parent"
+            android:layout_height="@dimen/heightimage2"
+            android:src="@drawable/udacitylogo"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

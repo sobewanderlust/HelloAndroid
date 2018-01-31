@@ -4,8 +4,7 @@
     <string name="facebooklogo">Facebook logo</string>
     <string name="twitterlogo">Twitter logo</string>
     <string name="udacity">Udacity</string>
-    <string name="street">2465 Latham St</string>
-    <string name="address">Mountain View, CA 94043</string>
+    <string name="address">2465 Latham St, Mountain View, CA 94043</string>
     <string name="number">650–555–5555</string>
     <string name="website">www.udacity.com</string>
 </resources>

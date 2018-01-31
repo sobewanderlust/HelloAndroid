@@ -4,7 +4,7 @@
     <item name="wrap_content" format="integer" type="dimen">-2</item>
     <dimen name="textview_padding">10dp</dimen>
     <dimen name="imageview_padding">10dp</dimen>
-    <dimen name="heightimage1">220dp</dimen>
-    <dimen name="heightimage2">100dp</dimen>
+    <dimen name="heightimage1">240dp</dimen>
+    <dimen name="heightimage2">140dp</dimen>
     <dimen name="font_size">18sp</dimen>
 </resources>

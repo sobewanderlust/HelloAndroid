@@ -9,7 +9,7 @@
 
     </style>
 
-    <style name="Styletext" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Styletitle" parent="Theme.AppCompat.Light.NoActionBar">
     <item name="android:layout_width">200dp</item>
     <item name="android:layout_height">48dp</item>
     <item name="android:paddingLeft">8dp</item>
@@ -21,14 +21,15 @@
 
     </style>
 
-    <style name="Styleicon" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Styletext" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:layout_width">200dp</item>
         <item name="android:layout_height">48dp</item>
         <item name="android:paddingLeft">8dp</item>
         <item name="android:paddingRight">8dp</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:tint">@android:color/holo_blue_light</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">#9E9E9E</item>
         <item name="android:background">#FFFFFF</item>
+        <item name="android:fontFamily">@font/indie_flower</item>
     </style>
 
 </resources>
